@@ -2,9 +2,9 @@
 
 window.onload = function () {
 
-  var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
-        'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
-        't', 'u', 'v', 'w', 'x', 'y', 'z'];
+  var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
+        'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
+        'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
   
   var getHint ;          // Word getHint
   var word ;              // Selected word
@@ -169,7 +169,7 @@ window.onload = function () {
   // Play
   play = function () {
     Wordlist = [
-        ["link", "hyrule", "zelda", "pricess", "sword", "shield", "bomb","triforce","gem","castle"],
+        ["LINK", "HYRULE", "ZELDA", "PRINCESS", "SWORD", "SHIELD", "BOMB","TRIFORCE","GEM","CASTLE"],
     ];
 
     chosenWord = Wordlist[Math.floor(Math.random() * Wordlist.length)];
